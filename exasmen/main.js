@@ -58,4 +58,14 @@ function Resul(){
     var c =parseInt(document.getElementById("no3").value);
     var d =parseInt(document.getElementById("no4").value);
     var e =parseInt(document.getElementById("no5").value);
+    var reso=a+b+c+d+e;
+    var resf=reso/5;
+    document.getElementById("prome").innerHTML="Su promedio es: " +resf;
+    if(resf>=7){
+        document.getElementById("pasa").innerHTML="Usted pasa el año con "+resf;
+    }else if(resf<=6.99 && resf>=5){
+        document.getElementById("pasa").innerHTML="Ustede se queda en supletorios con "+resf;
+    }else if(resf<=4.99 && resf>=0){
+        document.getElementById("pasa").innerHTML="Usted se queda en remediales con la nota de "+resf;
+    }
 }
