@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor1">
+        <h2>Entrenamiento de la cancha:</h2>
+        <br>
+        <label for="">Ingrese la hora: </label>
+        <input type="text" name="" id="q" >
+        <button onclick="hora()">Enviar</button>
+        <label for="" id="re"></label>
+    </div>
+    <div class="contenedor2">
+        <h2>Entrenamiento en la cancha</h2>
+        <select name="" id="s" onchange="vh()">
+            <option value="">Selecione uno de los deportes: </option>
+            <option value="Uso de la cancha desde las 1-3">Futbol</option>
+            <option value="Uso de la cancha desde las 3-6">Futbol Americano</option>
+            <option value="Uso de la cancha desde las 6-9">Atletismo</option>
+        </select><br>  
+        <label for="" id="rec"></label>
+    </div>
+    <div class="contenedor3">
+        <h2>Numero positivo o negativo</h2>
+        <label for="">Ingrese el numero:</label>
+        <input type="text" id="num">
+        <button onclick="veri()">Verificar</button>
+        <label for="" id="w"></label>
+    </div>
+    <div class="contenedor4">
+        <h2>Mayor de 3 numeros</h2>
+        <input type="text" id="n1">
+        <input type="text" id="n2">
+        <input type="text" id="n3">
+        <button onclick="verifi()">Verificar</button>
+        <label for="" id="e"></label>
+    </div>
+    <div class="contenedor5">
+        <h2>Operaciones basicas</h2>
+        <label>Digite dos numero</label>
+        <input type="number" id='nul1'>
+        <input type="number" id='nul2'> 
+        <select id='op'>
+            <option value='1'>Multiplicación</option>
+            <option value='2'>resta</option>
+            <option value="3">division</option>
+            <option value="4">suma</option>
+        </select><br>
+        <input id="y" type="button" value="Calcular">
+        <label for="" id="rsl"></label>
+    </div>
+        <div class="contenedor6">
+            <h2>Es mayor o menor de edad</h2>
+            <label for="">Ingrese su edad:</label>
+            <input type="text" id="edad">
+            <button onclick="edad()">Resultado</button>
+            <label for="" id="jh"></label>
+        </div>
+        <div class="contenedor7">
+            <h2>Promedio de 5 notas: </h2>
+            <label for="">Inserte 5 notas para poder calcular su promedio</label>
+            <input type="text" id="no1">
+            <input type="text" id="no2">
+            <input type="text" id="no3">
+            <input type="text" id="no4">
+            <input type="text" id="no5">
+            <button onclick="Resul()">Resultado</button><br>
+            <label for="" id="prome"></label><br>
+            <label for="" id="pasa"></label>
+        </div>
+</body>
+</html>
